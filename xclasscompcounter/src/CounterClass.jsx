@@ -4,8 +4,8 @@ class CounterClass extends Component{
     constructor(props){
         super(props);
         this.state = {
-            counter:0,
-        }
+            count: 0,
+        };
     }
 
     increment = ()=>{
